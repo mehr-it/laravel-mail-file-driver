@@ -3,10 +3,13 @@ A Laravel Mail driver that saves messages to disk for testing/ci purposes.
 
 ## Install
 ```bash
-composer require mehr-it/laravel-mail-file-driver '0.0.1'
+composer require mehr-it/laravel-mail-file-driver
 ```
 
 ## Replace default laravel mail manager in /config/app.php
+
+This is usually not required when using package autoloading.
+
 ```php
 return [
   'providers' => [
@@ -22,7 +25,7 @@ return [
 
 ## Add to .env
 ```ini
-MAIL_DRIVER=file
+MAIL_MAILER=file
 ```
 
 ## Custom storage location in .env
