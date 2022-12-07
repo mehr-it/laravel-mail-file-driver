@@ -1,5 +1,5 @@
 {
-    "name": "mmeyer2k/laravel-mail-file-driver",
+    "name": "mehr-it/laravel-mail-file-driver",
     "description": "A Laravel Mail driver that saves messages to disk",
     "type": "library",
     "autoload": {
